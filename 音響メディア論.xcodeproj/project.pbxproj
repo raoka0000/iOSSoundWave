@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542EC6A31F17D0460017A10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EC6A21F17D0460017A10B /* AppDelegate.swift */; };
+		542EC6A51F17D0460017A10B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EC6A41F17D0460017A10B /* ViewController.swift */; };
+		542EC6A81F17D0460017A10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542EC6A61F17D0460017A10B /* Main.storyboard */; };
+		542EC6AA1F17D0460017A10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542EC6A91F17D0460017A10B /* Assets.xcassets */; };
+		542EC6AD1F17D0460017A10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542EC6AB1F17D0460017A10B /* LaunchScreen.storyboard */; };
+		542EC6B81F17D0460017A10B /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EC6B71F17D0460017A10B /* ________Tests.swift */; };
+		542EC6C31F17D0460017A10B /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EC6C21F17D0460017A10B /* ________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542EC6B41F17D0460017A10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542EC6971F17D0460017A10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542EC69E1F17D0460017A10B;
+			remoteInfo = "音響メディア論";
+		};
+		542EC6BF1F17D0460017A10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542EC6971F17D0460017A10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542EC69E1F17D0460017A10B;
+			remoteInfo = "音響メディア論";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		542EC69F1F17D0460017A10B /* 音響メディア論.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音響メディア論.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542EC6A21F17D0460017A10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		542EC6A41F17D0460017A10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		542EC6A71F17D0460017A10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542EC6A91F17D0460017A10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542EC6AC1F17D0460017A10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		542EC6AE1F17D0460017A10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542EC6B31F17D0460017A10B /* 音響メディア論Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音響メディア論Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542EC6B71F17D0460017A10B /* ________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________Tests.swift"; sourceTree = "<group>"; };
+		542EC6B91F17D0460017A10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542EC6BE1F17D0460017A10B /* 音響メディア論UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音響メディア論UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542EC6C21F17D0460017A10B /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
+		542EC6C41F17D0460017A10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542EC69C1F17D0460017A10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542EC6B01F17D0460017A10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542EC6BB1F17D0460017A10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542EC6961F17D0460017A10B = {
+			isa = PBXGroup;
+			children = (
+				542EC6A11F17D0460017A10B /* 音響メディア論 */,
+				542EC6B61F17D0460017A10B /* 音響メディア論Tests */,
+				542EC6C11F17D0460017A10B /* 音響メディア論UITests */,
+				542EC6A01F17D0460017A10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542EC6A01F17D0460017A10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542EC69F1F17D0460017A10B /* 音響メディア論.app */,
+				542EC6B31F17D0460017A10B /* 音響メディア論Tests.xctest */,
+				542EC6BE1F17D0460017A10B /* 音響メディア論UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542EC6A11F17D0460017A10B /* 音響メディア論 */ = {
+			isa = PBXGroup;
+			children = (
+				542EC6A21F17D0460017A10B /* AppDelegate.swift */,
+				542EC6A41F17D0460017A10B /* ViewController.swift */,
+				542EC6A61F17D0460017A10B /* Main.storyboard */,
+				542EC6A91F17D0460017A10B /* Assets.xcassets */,
+				542EC6AB1F17D0460017A10B /* LaunchScreen.storyboard */,
+				542EC6AE1F17D0460017A10B /* Info.plist */,
+			);
+			path = "音響メディア論";
+			sourceTree = "<group>";
+		};
+		542EC6B61F17D0460017A10B /* 音響メディア論Tests */ = {
+			isa = PBXGroup;
+			children = (
+				542EC6B71F17D0460017A10B /* ________Tests.swift */,
+				542EC6B91F17D0460017A10B /* Info.plist */,
+			);
+			path = "音響メディア論Tests";
+			sourceTree = "<group>";
+		};
+		542EC6C11F17D0460017A10B /* 音響メディア論UITests */ = {
+			isa = PBXGroup;
+			children = (
+				542EC6C21F17D0460017A10B /* ________UITests.swift */,
+				542EC6C41F17D0460017A10B /* Info.plist */,
+			);
+			path = "音響メディア論UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542EC69E1F17D0460017A10B /* 音響メディア論 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542EC6C71F17D0460017A10B /* Build configuration list for PBXNativeTarget "音響メディア論" */;
+			buildPhases = (
+				542EC69B1F17D0460017A10B /* Sources */,
+				542EC69C1F17D0460017A10B /* Frameworks */,
+				542EC69D1F17D0460017A10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音響メディア論";
+			productName = "音響メディア論";
+			productReference = 542EC69F1F17D0460017A10B /* 音響メディア論.app */;
+			productType = "com.apple.product-type.application";
+		};
+		542EC6B21F17D0460017A10B /* 音響メディア論Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542EC6CA1F17D0460017A10B /* Build configuration list for PBXNativeTarget "音響メディア論Tests" */;
+			buildPhases = (
+				542EC6AF1F17D0460017A10B /* Sources */,
+				542EC6B01F17D0460017A10B /* Frameworks */,
+				542EC6B11F17D0460017A10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542EC6B51F17D0460017A10B /* PBXTargetDependency */,
+			);
+			name = "音響メディア論Tests";
+			productName = "音響メディア論Tests";
+			productReference = 542EC6B31F17D0460017A10B /* 音響メディア論Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		542EC6BD1F17D0460017A10B /* 音響メディア論UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542EC6CD1F17D0460017A10B /* Build configuration list for PBXNativeTarget "音響メディア論UITests" */;
+			buildPhases = (
+				542EC6BA1F17D0460017A10B /* Sources */,
+				542EC6BB1F17D0460017A10B /* Frameworks */,
+				542EC6BC1F17D0460017A10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542EC6C01F17D0460017A10B /* PBXTargetDependency */,
+			);
+			name = "音響メディア論UITests";
+			productName = "音響メディア論UITests";
+			productReference = 542EC6BE1F17D0460017A10B /* 音響メディア論UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542EC6971F17D0460017A10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = raoka0000;
+				TargetAttributes = {
+					542EC69E1F17D0460017A10B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8DJG368B3S;
+						ProvisioningStyle = Automatic;
+					};
+					542EC6B21F17D0460017A10B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8DJG368B3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542EC69E1F17D0460017A10B;
+					};
+					542EC6BD1F17D0460017A10B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8DJG368B3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542EC69E1F17D0460017A10B;
+					};
+				};
+			};
+			buildConfigurationList = 542EC69A1F17D0460017A10B /* Build configuration list for PBXProject "音響メディア論" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542EC6961F17D0460017A10B;
+			productRefGroup = 542EC6A01F17D0460017A10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542EC69E1F17D0460017A10B /* 音響メディア論 */,
+				542EC6B21F17D0460017A10B /* 音響メディア論Tests */,
+				542EC6BD1F17D0460017A10B /* 音響メディア論UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542EC69D1F17D0460017A10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542EC6AD1F17D0460017A10B /* LaunchScreen.storyboard in Resources */,
+				542EC6AA1F17D0460017A10B /* Assets.xcassets in Resources */,
+				542EC6A81F17D0460017A10B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542EC6B11F17D0460017A10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542EC6BC1F17D0460017A10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542EC69B1F17D0460017A10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542EC6A51F17D0460017A10B /* ViewController.swift in Sources */,
+				542EC6A31F17D0460017A10B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542EC6AF1F17D0460017A10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542EC6B81F17D0460017A10B /* ________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542EC6BA1F17D0460017A10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542EC6C31F17D0460017A10B /* ________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542EC6B51F17D0460017A10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542EC69E1F17D0460017A10B /* 音響メディア論 */;
+			targetProxy = 542EC6B41F17D0460017A10B /* PBXContainerItemProxy */;
+		};
+		542EC6C01F17D0460017A10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542EC69E1F17D0460017A10B /* 音響メディア論 */;
+			targetProxy = 542EC6BF1F17D0460017A10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		542EC6A61F17D0460017A10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542EC6A71F17D0460017A10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		542EC6AB1F17D0460017A10B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542EC6AC1F17D0460017A10B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542EC6C51F17D0460017A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		542EC6C61F17D0460017A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542EC6C81F17D0460017A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DJG368B3S;
+				INFOPLIST_FILE = "音響メディア論/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoka0000.jp.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		542EC6C91F17D0460017A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DJG368B3S;
+				INFOPLIST_FILE = "音響メディア論/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoka0000.jp.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		542EC6CB1F17D0460017A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DJG368B3S;
+				INFOPLIST_FILE = "音響メディア論Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoka0000.jp.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音響メディア論.app/音響メディア論";
+			};
+			name = Debug;
+		};
+		542EC6CC1F17D0460017A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DJG368B3S;
+				INFOPLIST_FILE = "音響メディア論Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoka0000.jp.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音響メディア論.app/音響メディア論";
+			};
+			name = Release;
+		};
+		542EC6CE1F17D0460017A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8DJG368B3S;
+				INFOPLIST_FILE = "音響メディア論UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoka0000.jp.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "音響メディア論";
+			};
+			name = Debug;
+		};
+		542EC6CF1F17D0460017A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8DJG368B3S;
+				INFOPLIST_FILE = "音響メディア論UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoka0000.jp.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "音響メディア論";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542EC69A1F17D0460017A10B /* Build configuration list for PBXProject "音響メディア論" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542EC6C51F17D0460017A10B /* Debug */,
+				542EC6C61F17D0460017A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542EC6C71F17D0460017A10B /* Build configuration list for PBXNativeTarget "音響メディア論" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542EC6C81F17D0460017A10B /* Debug */,
+				542EC6C91F17D0460017A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		542EC6CA1F17D0460017A10B /* Build configuration list for PBXNativeTarget "音響メディア論Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542EC6CB1F17D0460017A10B /* Debug */,
+				542EC6CC1F17D0460017A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		542EC6CD1F17D0460017A10B /* Build configuration list for PBXNativeTarget "音響メディア論UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542EC6CE1F17D0460017A10B /* Debug */,
+				542EC6CF1F17D0460017A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542EC6971F17D0460017A10B /* Project object */;
+}
